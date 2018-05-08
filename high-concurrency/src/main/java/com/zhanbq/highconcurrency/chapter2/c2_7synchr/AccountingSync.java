@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.synchr;
+package com.zhanbq.highconcurrency.chapter2.c2_7synchr;
 
 public class AccountingSync implements Runnable {
 

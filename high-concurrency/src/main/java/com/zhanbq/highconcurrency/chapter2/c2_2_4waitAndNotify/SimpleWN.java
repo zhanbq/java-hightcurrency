@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.waitAndNotify;
+package com.zhanbq.highconcurrency.chapter2.c2_2_4waitAndNotify;
 
 public class SimpleWN {
   

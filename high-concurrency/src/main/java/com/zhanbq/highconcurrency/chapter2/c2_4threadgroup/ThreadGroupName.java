@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.threadgroup;
+package com.zhanbq.highconcurrency.chapter2.c2_4threadgroup;
 
 public class ThreadGroupName implements Runnable {
 

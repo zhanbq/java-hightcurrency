@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.joinAndYield;
+package com.zhanbq.highconcurrency.chapter2.c2_2_6joinAndYield;
 
 public class JoinMain {
 

@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.stopAndInterrupt;
+package com.zhanbq.highconcurrency.chapter2.c2_2_2stopAndInterrupt;
 
 public class InterruptTest1 {
   

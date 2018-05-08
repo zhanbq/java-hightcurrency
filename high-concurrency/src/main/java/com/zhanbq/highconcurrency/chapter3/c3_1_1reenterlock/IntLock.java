@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter3.reenterlock;
+package com.zhanbq.highconcurrency.chapter3.c3_1_1reenterlock;
 
 import java.util.concurrent.locks.ReentrantLock;
 

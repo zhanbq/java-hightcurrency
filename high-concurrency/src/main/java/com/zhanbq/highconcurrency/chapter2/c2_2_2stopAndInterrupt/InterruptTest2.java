@@ -1,6 +1,6 @@
-package com.zhanbq.highconcurrency.chapter2.stopAndInterrupt;
+package com.zhanbq.highconcurrency.chapter2.c2_2_2stopAndInterrupt;
 
-public class InterruptTest3 {
+public class InterruptTest2 {
 
 
   public static void main(String[] args) throws InterruptedException {
@@ -15,13 +15,7 @@ public class InterruptTest3 {
             System.out.println("interrupt");
             break;
           }
-          try {
-            Thread.sleep(2000);
-          } catch (InterruptedException e) {
-            System.out.println("线程sleep时设置中断");
-            //设置中断状态
-            Thread.currentThread().interrupt();
-          }
+          
           Thread.yield();
         }
 

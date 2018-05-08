@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.valatileAndJMM;
+package com.zhanbq.highconcurrency.chapter2.c2_3valatileAndJMM;
 
 /**
  * volatitle 保证线程间变量的可见性,无法保证原子性操作

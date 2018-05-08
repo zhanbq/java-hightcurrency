@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.priority;
+package com.zhanbq.highconcurrency.chapter2.c2_6priority;
 
 public class PriorityDemo {
 

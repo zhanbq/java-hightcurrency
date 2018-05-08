@@ -1,4 +1,4 @@
-package com.zhanbq.highconcurrency.chapter2.valatileAndJMM;
+package com.zhanbq.highconcurrency.chapter2.c2_3valatileAndJMM;
 
 public class VolatileTest2 {
   private static boolean ready;

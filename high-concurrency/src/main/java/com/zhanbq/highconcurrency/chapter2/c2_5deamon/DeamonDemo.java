@@ -1,6 +1,6 @@
-package com.zhanbq.highconcurrency.chapter2.deamon;
+package com.zhanbq.highconcurrency.chapter2.c2_5deamon;
 
-import com.zhanbq.highconcurrency.chapter2.deamon.DeamonDemo.DeamonT;
+import com.zhanbq.highconcurrency.chapter2.c2_5deamon.DeamonDemo.DeamonT;
 
 /**
  * 
