@@ -15,7 +15,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>1.5.12.RELEASE</version>
-		<relativePath/> <!-- lookup parent from repository -->
+		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 
 	<properties>
@@ -35,6 +35,73 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.ow2.asm/asm -->
+		<dependency>
+			<groupId>org.ow2.asm</groupId>
+			<artifactId>asm</artifactId>
+			<version>6.1.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/net.sf.ehcache/ehcache -->
+		<dependency>
+			<groupId>net.sf.ehcache</groupId>
+			<artifactId>ehcache</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+		<dependency>
+			<groupId>com.mchange</groupId>
+			<artifactId>c3p0</artifactId>
+			<version>0.9.5.2</version>
+		</dependency>
+		<dependency>
+			<groupId>org.amino</groupId>
+			<artifactId>amino-cbbs</artifactId>
+			<version>0.3.1</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.javassist/javassist -->
+		<dependency>
+			<groupId>org.javassist</groupId>
+			<artifactId>javassist</artifactId>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.netbeans/lib -->
+		<dependency>
+			<groupId>org.netbeans</groupId>
+			<artifactId>lib</artifactId>
+			<version>3.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.netbeans.modules/org-netbeans-lib-profiler -->
+		<!-- <dependency> -->
+		<!-- <groupId>org.netbeans.modules</groupId> -->
+		<!-- <artifactId>org-netbeans-lib-profiler</artifactId> -->
+		<!-- <version>RELEASE802</version> -->
+		<!-- </dependency> -->
+
+		<!-- https://mvnrepository.com/artifact/org.netbeans.modules/org-netbeans-modules-profiler -->
+<!-- 		<dependency> -->
+<!-- 			<groupId>org.netbeans.modules</groupId> -->
+<!-- 			<artifactId>org-netbeans-modules-profiler</artifactId> -->
+<!-- 			<version>RELEASE802</version> -->
+<!-- 		</dependency> -->
+
+
+		<!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+		<dependency>
+			<groupId>commons-io</groupId>
+			<artifactId>commons-io</artifactId>
+			<version>2.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.apache.directory.studio/org.apache.commons.pool -->
+		<dependency>
+			<groupId>org.apache.directory.studio</groupId>
+			<artifactId>org.apache.commons.pool</artifactId>
+			<version>1.6</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.hibernate/hibernate-core -->
+		<dependency>
+			<groupId>org.hibernate</groupId>
+			<artifactId>hibernate-core</artifactId>
+		</dependency>
+
+
 	</dependencies>
 
 	<build>

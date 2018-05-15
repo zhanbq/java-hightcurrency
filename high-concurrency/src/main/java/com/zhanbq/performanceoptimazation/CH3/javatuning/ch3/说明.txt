@@ -1,0 +1,9 @@
+collectionvisittuning	优化集合访问代码、RandomAccess相关代码
+directbuffer			直接内存访问相关代码
+list					List测试相关代码
+map						Map测试相关代码
+nio						NIO相关代码
+ref						软引用、弱引用、虚引用相关代码
+stringappend			字符串连接测试相关代码
+tech					有助于改善性能的技巧 相关代码
+teststr					字符串性能相关代码

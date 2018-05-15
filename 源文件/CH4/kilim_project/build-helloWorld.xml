@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<project name="helloworldtask" default="run">
+	<property name="mainclass" value="kilim.examples.HelloWorldTask"/>
+	<property name="includenames" value="**/HelloWorldTask.java"/>
+	<property name="weavenames" value="./classes/kilim/examples/HelloWorldTask.class"/>
+	<property name="srcpath" value="examples"/>
+
+	<path id="kilim.classpath">
+		<pathelement location="classes/" />
+		<fileset dir="./libs">
+			<include name="**/*.jar"/>
+		</fileset>
+		<pathelement path="${java.class.path}" />
+	</path>
+	<path id="kilim.testwovenclasspath">
+		<pathelement location="testclasses/" />
+		<pathelement location="classes/" />
+		<fileset dir="./libs">
+			<include name="**/*.jar"/>
+		</fileset>
+		<pathelement path="${java.class.path}" />
+	</path>
+
+	<target name="run" depends="weave,runmain" />
+
+	<target name="compile">
+		<echo message="Compiling src ===================" />
+		<javac debug="on"  destdir="classes" 
+           classpathref="kilim.classpath">
+			<src path="${srcpath}"/>
+			<include name="${includenames}"/>
+		</javac>
+	</target>
+
+	<target name="weave" depends="compile">
+		<echo message="Weaving files ===================" />
+		<java classname="kilim.tools.Weaver" fork ="yes">
+			<classpath refid="kilim.classpath"/>
+			<arg value="-d" />
+			<arg value="./classes" />
+			<arg line="${weavenames}" />
+		</java>
+	</target>
+
+	<target name="runmain" >
+		<echo message="runmain ======================" />
+		<java classname="${mainclass}" fork="yes">
+			<classpath refid="kilim.testwovenclasspath"/>
+		</java>
+	</target>
+</project>
