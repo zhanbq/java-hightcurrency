@@ -47,11 +47,13 @@
 			<artifactId>ehcache</artifactId>
 		</dependency>
 		<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
+		<!-- https://mvnrepository.com/artifact/com.mchange/c3p0 -->
 		<dependency>
-			<groupId>com.mchange</groupId>
-			<artifactId>c3p0</artifactId>
-			<version>0.9.5.2</version>
+		    <groupId>com.mchange</groupId>
+		    <artifactId>c3p0</artifactId>
+		    <version>0.9.5.4</version>
 		</dependency>
+
 		<dependency>
 			<groupId>org.amino</groupId>
 			<artifactId>amino-cbbs</artifactId>
@@ -100,7 +102,23 @@
 			<groupId>org.hibernate</groupId>
 			<artifactId>hibernate-core</artifactId>
 		</dependency>
-
+		<!-- https://mvnrepository.com/artifact/com.github.bumptech.glide/glide -->
+		<dependency>
+			<groupId>com.github.bumptech.glide</groupId>
+			<artifactId>glide</artifactId>
+			<version>4.11.0</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/org.jsoup/jsoup -->
+		<dependency>
+			<groupId>org.jsoup</groupId>
+			<artifactId>jsoup</artifactId>
+			<version>1.13.1</version>
+		</dependency>
+		<dependency>
+			<groupId>com.alibaba</groupId>
+			<artifactId>fastjson</artifactId>
+			<version>1.2.73</version>
+		</dependency>
 
 	</dependencies>
 

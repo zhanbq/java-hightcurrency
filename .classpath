@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="源文件/CH2"/>
+	<classpathentry kind="src" path="源文件/CH3"/>
+	<classpathentry excluding="kilim_project/src/|kilim_project/examples/|kilim_project/test/|kilim_project/bench/" kind="src" path="源文件/CH4"/>
+	<classpathentry kind="src" path="源文件/CH4/kilim_project/bench"/>
+	<classpathentry kind="src" path="源文件/CH4/kilim_project/examples"/>
+	<classpathentry kind="src" path="源文件/CH4/kilim_project/src"/>
+	<classpathentry kind="src" path="源文件/CH4/kilim_project/test"/>
+	<classpathentry kind="src" path="源文件/CH5"/>
+	<classpathentry kind="src" path="源文件/CH6"/>
+	<classpathentry kind="src" path="akka-quickstart-java/src/main/java"/>
+	<classpathentry kind="src" path="akka-quickstart-java/src/test/java"/>
+	<classpathentry excluding="com/zhanbq/performanceoptimazation/CH6/javatuning/ch6/toolscheck/" kind="src" path="high-concurrency/src/main/java"/>
+	<classpathentry kind="src" path="high-concurrency/src/main/java/com/zhanbq/performanceoptimazation/CH6/javatuning/ch6/toolscheck"/>
+	<classpathentry kind="src" path="high-concurrency/src/test/java"/>
+	<classpathentry kind="lib" path="high-concurrency/.mvn/wrapper/maven-wrapper.jar"/>
+	<classpathentry kind="output" path="akka-quickstart-java/target/classes"/>
+</classpath>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+ 
+<div id="box">
+<!--    <video controls width="400" id="myvideo">-->
+<!--        <source src="http://file.rmny.tech/2020/06/09/368dbdb9b0dd451190f9ac5d10c08526.mp4?fileId=100587">-->
+<!--        <track label="英文字幕"   kind="subtitles"    srclang="de" src="http://file.rmny.tech/2020/06/17/bb109c681ea645c6aace5e99db1dfc0b.vtt" default>-->
+<!--        <track label="中文字幕"     kind="subtitles"    srclang="de" src="http://file.rmny.tech/2020/06/17/bb109c681ea645c6aace5e99db1dfc0b.vtt" >-->
+<!--    </video>-->
+    <video id="video"  controls crossorigin="anonymous">
+        <source src="http://file.rmny.tech/2020/06/09/368dbdb9b0dd451190f9ac5d10c08526.mp4?fileId=100587" type="video/mp4">
+        <track label="中文字幕" kind="subtitles" chapters metadata srclang="zh" src="http://file.rmny.tech/2020/06/17/f696215ec758418ca279506f902456bb.vtt" default>
+        <track label="ABC" kind="subtitles" srclang="de" src="./caption1.vtt">
+        <track label="Number" kind="subtitles" srclang="es" src="./caption2.vtt">
+    </video>
+</div>
+</body>
+</html>
